@@ -1,0 +1,24 @@
+[
+  {
+    "id": "one",
+    "cover": "https://raw.githubusercontent.com/RatnalaRaja/AWS-AUTOMATE_Project/main/AWS-logo-2.jpg",
+    "title": "Email Automation",
+    "description": "AWS EC2, Lambda, EventBridge, Cloudwatch",
+    "url": "https://github.com/RatnalaRaja/AWS-AUTOMATE_Project"
+  },
+  {
+    "id": "two",
+    "cover": "https://raw.githubusercontent.com/RatnalaRaja/Project-Expert-Engine/main/1.jpeg",
+    "title": "SonarQude Code Analysis",
+    "description": "AWS EC2, Docker, Jenkins, SonarQube",
+    "url": "http://github.com/RatnalaRaja/Project-Expert-Engine"
+  },
+  {
+    "id": "three",
+    "cover": "https://raw.githubusercontent.com/RatnalaRaja/DeepFake_Detection/main/Deepfake.png",
+    "title": "DeepFake Detection",
+    "description": "AWS EC2, DeepLearning, Numpy, Pandas",
+    "url": "https://github.com/RatnalaRaja/DeepFake_Detection"
+  }
+  
+]

@@ -1,0 +1,52 @@
+$primary-color: #ffd700;
+// Import animate.css (make sure your build supports this syntax)
+@import "animate.css";
+// Import pacman loader animation (adjust path if needed)
+@import "~loaders.css/src/animations/pacman.scss";
+
+// Define font faces with proper formats and paths
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetica-neu.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
+
+// Apply default font-family to inputs and textareas
+input,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+// Loader active styles centered absolutely with fadeOut animation
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2rem;
+}
